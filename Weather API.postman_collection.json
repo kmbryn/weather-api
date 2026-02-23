@@ -29,7 +29,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "{{base_url}}/weather/Manila",
+          "raw": "{{base_url}}/api/weather/Manila",
           "host": [
             "{{base_url}}"
           ],
@@ -63,7 +63,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "{{base_url}}/weather/Manila/cached",
+          "raw": "{{base_url}}/api/weather/Manila/cached",
           "host": [
             "{{base_url}}"
           ],
@@ -108,7 +108,7 @@
           }
         },
         "url": {
-          "raw": "{{base_url}}/weather/Manila/cached",
+          "raw": "{{base_url}}/api/weather/Manila/cached",
           "host": [
             "{{base_url}}"
           ],
@@ -148,7 +148,7 @@
   "variable": [
     {
       "key": "base_url",
-      "value": "http://127.0.0.1:8000/api"
+      "value": "http://127.0.0.1:8000"
     }
   ]
 }
