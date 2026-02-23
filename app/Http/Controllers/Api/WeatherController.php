@@ -36,4 +36,13 @@ class WeatherController extends Controller{
         );
     }
 
+    public function invalidate(string $city): JsonResponse
+    {
+        Cache::forget("weather:{$city}");
+
+        return response()->json([
+            'message' => 'Cache cleared successfully.',
+        ]);
+    }
+
 }
