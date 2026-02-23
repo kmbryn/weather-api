@@ -15,7 +15,7 @@
 <code>composer install</code>
 
 3. Copy Environment File
-<code>cp .env.example .env</code>
+<code>cp .env.example .env</code> or <code>copy .env.example .env</code>
 4. Add your API key
 ```bash
 OPENWEATHER_API_KEY=<YOUR-API-KEY>
@@ -58,5 +58,6 @@ Caching layer:
 - Manual invalidation endpoint
 
 External API failures are translated into proper HTTP responses (404, 502).
+
 
 
