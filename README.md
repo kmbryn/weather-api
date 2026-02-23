@@ -34,6 +34,9 @@ GET /api/weather/{city}
 GET /api/weather/{city}/cached  
 DELETE /api/weather/{city}/cached
 ```
+You can use Postman and import the <code>Weather API.postman_collection.json</code> to test all endpoints.
+Just change the <code>base_url</code> variable to be the same with <code>APP_URL</code> from you .env file.
+Or you can also access the <code>GET<code> endpoints by directly accessing it from the browser.
 
 ---
 
