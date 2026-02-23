@@ -51,10 +51,12 @@ Or you can also access the <code>GET</code> endpoints by directly accessing it f
 - Service: Encapsulates external API logic and caching
 - Resource: Transforms API response
 - Global exception handling ensures consistent JSON errors
+- Added /api prefix to separate the API Routes from Web Routes
 
 Caching layer:
 - 10 minute TTL
 - Manual invalidation endpoint
 
 External API failures are translated into proper HTTP responses (404, 502).
+
 
